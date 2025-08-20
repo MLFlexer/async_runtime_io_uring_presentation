@@ -391,6 +391,7 @@ spawn(async {
 ---
 # Okay, but is it :fire: blazingly :fire: fast?
 
+
 ---
 ## Benchmark setup
 Server:
@@ -405,6 +406,13 @@ Client:
 - `hey -z 5m -cpus 6 -c $NUM_CONNECTIONS $ADDRESS`
 
 ![bg right:50% width:90%](img/benchmark_setup.jpg)
+
+---
+## Benchmark setup
+- 5 minute load
+- 4 vs. 6 threads
+- 100 vs. 1000 connections
+- Tokio vs. uring vs. uring + sqpoll
 
 ---
 ## Reqests per Second
