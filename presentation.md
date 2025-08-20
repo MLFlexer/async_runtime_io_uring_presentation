@@ -389,6 +389,9 @@ spawn(async {
 ```
 
 ---
+# Okay, but is it :fire: blazingly :fire: fast?
+
+---
 ## Benchmark setup
 Server:
 - Ryzen 5 5600X 6-Core
@@ -409,12 +412,12 @@ Client:
 
 ---
 ## Average Latency
-![Average Latency](bench/Avg_Latency.png)
+![Average Latency](bench/Avg_Latency_(s).png)
 
 
 ---
 ## 99% Latency
-![99 percent Latency](bench/P99_Latency.png)
+![99 percent Latency](bench/P99_Latency_(s).png)
 
 ---
 ## Improvements
