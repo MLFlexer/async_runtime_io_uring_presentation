@@ -72,8 +72,16 @@ But the code was ugly and multithreading made it even uglier...
 ---
 ## TLDR: `io_uring`
 - Created by Jens Axboe
-- Danish BTW
-![bg right:50% width:90%](img/denmark_meme.jpeg)
+
+![bg right:50% width:60%](img/jens_axboe.jpg)
+
+---
+## TLDR: `io_uring`
+- Created by Jens Axboe
+- Danish BTW 🇩🇰
+
+![bg right:50% width:60%](img/jens_axboe.jpg)
+![w:90%](img/denmark_meme.jpeg)
 
 ---
 
@@ -363,12 +371,12 @@ The CQE is associated with the state and `wake()` sends it to the task channel.
 ```rs
 spawn(async {
     // Listen for incomming connections
-    let addr: SocketAddr = "127.0.0.1:8080".parse().unwrap();
+    let addr: SocketAddr = "192.168.0.42:8080".parse().unwrap();
     let listener = TcpListener::bind(addr).unwrap();
     // Accept connections
     let _ = AcceptMultiFuture::new(listener.as_raw_fd(), |fd| async move {
         // Read from socket
-        let buf: [u8; 64] = [0u8; 64];
+        let buf: [u8; 128] = [0u8; 128];
         let _ = ReaderFuture::new(buf, fd).await;
         // Write to socket
         let response = "HTTP/1.1 200 OK\r\nContent-Length: 13\r\nConnection: close\r\n\r\nHello, World!";
@@ -381,159 +389,41 @@ spawn(async {
 ```
 
 ---
-## Performance
-```
-❯ hey -n 1000000 -cpus 5 -c 500 -host localhost http://127.0.0.1:8080
+## Benchmark setup
+Server:
+- Ryzen 5 5600X 6-Core
+- 16 GB RAM
+- Kernel: 6.12.33
+- Ethernet
 
-Summary:
-  Total:        19.9967 secs
-  Slowest:      1.2245 secs
-  Fastest:      0.0001 secs
-  Average:      0.0087 secs
-  Requests/sec: 50008.3323
+Client:
+- Ryzen 5 4500U 6-Core
+- Wifi
+- `hey -z 5m -cpus 6 -c $NUM_CONNECTIONS $ADDRESS`
 
-  Total data:   13000000 bytes
-  Size/request: 13 bytes
-
-Response time histogram:
-  0.000 [1]     |
-  0.123 [996240]        |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
-  0.245 [15]    |
-  0.367 [0]     |
-  0.490 [0]     |
-  0.612 [0]     |
-  0.735 [0]     |
-  0.857 [0]     |
-  0.980 [0]     |
-  1.102 [3702]  |
-  1.224 [42]    |
-
-
-Latency distribution:
-  10% in 0.0014 secs
-  25% in 0.0022 secs
-  50% in 0.0037 secs
-  75% in 0.0067 secs
-  90% in 0.0100 secs
-  95% in 0.0117 secs
-  99% in 0.0158 secs
-
-Details (average, fastest, slowest):
-  DNS+dialup:   0.0048 secs, 0.0001 secs, 1.2245 secs
-  DNS-lookup:   0.0000 secs, 0.0000 secs, 0.0000 secs
-  req write:    0.0013 secs, 0.0000 secs, 0.0202 secs
-  resp wait:    0.0013 secs, 0.0000 secs, 0.2109 secs
-  resp read:    0.0013 secs, 0.0000 secs, 0.0191 secs
-
-Status code distribution:
-  [200] 1000000 responses   
-```
+![bg right:50% width:90%](img/benchmark_setup.jpg)
 
 ---
-## Tokio performance
-```
-❯ hey -n 1000000 -cpus 5 -c 500 -host localhost http://127.0.0.1:8080
-
-Summary:
-  Total:        18.0229 secs
-  Slowest:      0.0639 secs
-  Fastest:      0.0001 secs
-  Average:      0.0090 secs
-  Requests/sec: 55485.0481
-
-  Total data:   13000000 bytes
-  Size/request: 13 bytes
-
-Response time histogram:
-  0.000 [1]     |
-  0.006 [184497]        |■■■■■■■■■■
-  0.013 [749833]        |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
-  0.019 [64775] |■■■
-  0.026 [394]   |
-  0.032 [0]     |
-  0.038 [0]     |
-  0.045 [113]   |
-  0.051 [140]   |
-  0.058 [200]   |
-  0.064 [47]    |
-
-
-Latency distribution:
-  10% in 0.0055 secs
-  25% in 0.0071 secs
-  50% in 0.0090 secs
-  75% in 0.0108 secs
-  90% in 0.0123 secs
-  95% in 0.0132 secs
-  99% in 0.0153 secs
-
-Details (average, fastest, slowest):
-  DNS+dialup:   0.0021 secs, 0.0001 secs, 0.0639 secs
-  DNS-lookup:   0.0000 secs, 0.0000 secs, 0.0000 secs
-  req write:    0.0024 secs, 0.0000 secs, 0.0403 secs
-  resp wait:    0.0020 secs, 0.0000 secs, 0.0408 secs
-  resp read:    0.0024 secs, 0.0000 secs, 0.0121 secs
-
-Status code distribution:
-  [200] 1000000 responses 
-```
+## Reqests per Second
+![Requests per Second](bench/Requests-sec.png)
 
 ---
-## With SQE polling
-```
-❯ hey -n 1000000 -cpus 5 -c 500 -host localhost http://127.0.0.1:8080
-
-Summary:
-  Total:        19.9967 secs
-  Slowest:      1.2245 secs
-  Fastest:      0.0001 secs
-  Average:      0.0087 secs
-  Requests/sec: 50008.3323
-
-  Total data:   13000000 bytes
-  Size/request: 13 bytes
-
-Response time histogram:
-  0.000 [1]     |
-  0.123 [996240]        |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
-  0.245 [15]    |
-  0.367 [0]     |
-  0.490 [0]     |
-  0.612 [0]     |
-  0.735 [0]     |
-  0.857 [0]     |
-  0.980 [0]     |
-  1.102 [3702]  |
-  1.224 [42]    |
+## Average Latency
+![Average Latency](bench/Avg_Latency.png)
 
 
-Latency distribution:
-  10% in 0.0014 secs
-  25% in 0.0022 secs
-  50% in 0.0037 secs
-  75% in 0.0067 secs
-  90% in 0.0100 secs
-  95% in 0.0117 secs
-  99% in 0.0158 secs
-
-Details (average, fastest, slowest):
-  DNS+dialup:   0.0048 secs, 0.0001 secs, 1.2245 secs
-  DNS-lookup:   0.0000 secs, 0.0000 secs, 0.0000 secs
-  req write:    0.0013 secs, 0.0000 secs, 0.0202 secs
-  resp wait:    0.0013 secs, 0.0000 secs, 0.2109 secs
-  resp read:    0.0013 secs, 0.0000 secs, 0.0191 secs
-
-Status code distribution:
-  [200] 1000000 responses   
-```
+---
+## 99% Latency
+![99 percent Latency](bench/P99_Latency.png)
 
 ---
 ## Improvements
-- Better scheduling
 - Improved contention on locks and queues
 - Reduced/Improved allocation
-- Implement missing opcodes
+- Implement all operations
 - Better API
+- Handle errors and cancelations
+- Multiple rings???
 
 ---
 ## Tokio-uring
@@ -547,4 +437,5 @@ Tokio is in the process of implementing a backend for `io_uring` with [tokio-uri
 
 ---
 # Questions?
-Code available here: [github.com/CrabRing/presentation](???)
+Code/presentation available here:
+[github.com/MLFlexer/async_runtime_io_uring_presentation](https://github.com/MLFlexer/async_runtime_io_uring_presentation/)

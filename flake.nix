@@ -19,14 +19,16 @@
       in {
         devShells.default = with pkgs;
           mkShell {
-            buildInputs = with pkgs; [
-              hey
-              rust_nightly
-              bacon
-              marp-cli
-              cargo-flamegraph
-              linuxPackages.perf
-            ];
+            buildInputs = with pkgs;
+              [
+                hey
+                rust_nightly
+                bacon
+                marp-cli
+                cargo-flamegraph
+                linuxPackages.perf
+              ] ++ [ python311 ]
+              ++ (with pkgs.python311Packages; [ pandas seaborn matplotlib ]);
 
           };
       });

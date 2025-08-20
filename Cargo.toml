@@ -1,0 +1,13 @@
+[package]
+name = "io_uring_async_runtime"
+version = "0.1.0"
+authors = ["Malthe Larsen"]
+edition = "2021"
+
+[dependencies]
+futures = "0.3.31"
+io-uring = "0.7.9"
+libc = "0.2.174"
+
+[features]
+atomic_shared_cell_check = []
