@@ -338,6 +338,14 @@ The CQE is associated with the state and `wake()` sends it to the task channel.
 
 ![bg right:60% width:90%](img/writer/write_12.drawio.svg)
 
+---
+## Walkthrough
+Recive other tasks
+
+![bg right:60% width:90%](img/writer/write_2.drawio.svg)
+
+---
+## Cool, but can we do more than hello world?
 
 ---
 ## HTTP server
@@ -391,6 +399,30 @@ spawn(async {
 ---
 # Okay, but is it :fire: blazingly :fire: fast?
 
+---
+## Tokio implementation
+```rs
+async fn accept_test() -> std::io::Result<()> {
+    let addr = "192.168.0.8:8080";
+    let listener = TcpListener::bind(addr).await?;
+    loop {
+        let (mut socket, _) = listener.accept().await?;
+        tokio::spawn(async move {
+            let mut buf = [0u8; 128];
+            match socket.read(&mut buf).await {
+                Ok(0) => return, // connection closed
+                Ok(_) => {
+                    let response = b"HTTP/1.1 200 OK\r\nContent-Length: 13\r\nConnection: close\r\n\r\nHello, World!";
+
+                    let _ = socket.write_all(response).await;
+                }
+                Err(_) => return,
+            }
+        });
+    }
+}
+```
+
 
 ---
 ## Benchmark setup
@@ -415,6 +447,11 @@ Client:
 - Tokio vs. uring vs. uring + sqpoll
 
 ---
+## SQ Polling
+- A kernel thread continuously polls the submission queue for submissions
+- CPU expensive
+
+---
 ## Reqests per Second
 ![Requests per Second](bench/Requests-sec.png)
 
@@ -428,13 +465,53 @@ Client:
 ![99 percent Latency](bench/P99_Latency_(s).png)
 
 ---
-## Improvements
-- Improved contention on locks and queues
+## Performance Improvements
+- Improved contention on locks and channels
+- Local and Global queues
+- Multiple rings
 - Reduced/Improved allocation
 - Implement all operations
 - Better API
 - Handle errors and cancelations
-- Multiple rings???
+
+---
+## Use after `drop()`
+1. submit SQE
+2. `drop()`
+3. Kernel uses dropped data.
+4. ~~profit~~ Undefined behaviour 💀
+
+---
+## Use after `drop()`
+- Can happen if futures are cancelled.
+- `select!` returns the first future to finish.
+```rs
+select! {
+    msg1 = rx1.recv() => println!("received msg1: {}", msg1.unwrap()),
+    msg2 = rx2.recv() => println!("received msg2: {}", msg2.unwrap()),
+}
+```
+
+
+---
+## Use after `drop()`
+- Ensure data isn't dropped before all CQEs are seen
+- When dropping
+    1. check if complete or
+    2. issue cancellation SQE and await CQE
+
+
+---
+## Use after `drop()`
+- Data used by SQEs is owned until complete
+- Ready futures can return ownership
+```rs
+spawn(async {
+    let hello = "Hello from io_uring!\n";
+    let (res, hello) = WriterFuture::new(hello, 0).await;
+    // ... Reuse hello buffer
+});
+```
 
 ---
 ## Tokio-uring
