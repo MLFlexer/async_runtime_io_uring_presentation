@@ -472,6 +472,10 @@ Client:
 ![99 percent Latency](bench/P99_Latency_(s).png)
 
 ---
+## Meh, that wasn't very :fire: blazingly :fire: fast...
+Alright, let's cheat a bit 🤫
+
+---
 ## Cheating HTTP server (Linked read, write and close)
 ```rs
 spawn(async {
