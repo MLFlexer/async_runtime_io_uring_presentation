@@ -52,13 +52,13 @@ fn main() {
         println!("starting multi");
         let result = AcceptMultiFuture::new(listener.as_raw_fd(), |fd| async move {
             let buf: [u8; 64] = [0u8; 64];
-            // let _ = ReaderFuture::new(buf, fd).await;
+            let _ = ReaderFuture::new(buf, fd).await;
             let response =
                 "HTTP/1.1 200 OK\r\nContent-Length: 13\r\nConnection: close\r\n\r\nHello, World!";
-            // let _ = WriterFuture::new(response, fd).await;
+            let _ = WriterFuture::new(response, fd).await;
 
-            // let _ = ShutdownAndCloseFuture::new(fd).await;
-            let _ = RWCFuture::new(buf, response, fd).await;
+            let _ = ShutdownAndCloseFuture::new(fd).await;
+            // let _ = RWCFuture::new(buf, response, fd).await;
         })
         .await;
         println!("EXITTING! {result}");
