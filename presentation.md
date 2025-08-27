@@ -472,6 +472,36 @@ Client:
 ![99 percent Latency](bench/P99_Latency_(s).png)
 
 ---
+## Cheating HTTP server (Linked read, write and close)
+```rs
+spawn(async {
+    // Listen for incomming connections
+    let addr: SocketAddr = "192.168.0.42:8080".parse().unwrap();
+    let listener = TcpListener::bind(addr).unwrap();
+    // Accept connections
+    let _ = AcceptMultiFuture::new(listener.as_raw_fd(), |fd| async move {
+        let buf: [u8; 128] = [0u8; 128];
+        let response = "HTTP/1.1 200 OK\r\nContent-Length: 13\r\nConnection: close\r\n\r\nHello, World!";
+        // read, write and close
+        let _ = RWCFuture::new(buf, response, fd).await;
+    })
+    .await;
+});
+
+```
+---
+## Reqests per Second
+![Requests per Second](bench/Requests-sec_RWC.png)
+
+---
+## Average Latency
+![Average Latency](bench/Avg_Latency_(s)_RWC.png)
+
+---
+## 99% Latency
+![99 percent Latency](bench/P99_Latency_(s)_RWC.png)
+
+---
 ## Performance Improvements
 - Improved contention on locks and channels
 - Local and Global queues

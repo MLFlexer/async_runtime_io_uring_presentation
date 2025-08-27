@@ -9,6 +9,8 @@ data = [
     {"Threads": 4, "Connections": 1000, "Implementation": "uring", "Requests/sec": 3237, "Avg Latency (s)": 0.3088, "P99 Latency (s)": 0.3545},
     {"Threads": 4, "Connections": 100, "Implementation": "uring+sqpoll", "Requests/sec": 3271, "Avg Latency (s)": 0.0306, "P99 Latency (s)": 0.0380},
     {"Threads": 4, "Connections": 1000, "Implementation": "uring+sqpoll", "Requests/sec": 3242, "Avg Latency (s)": 0.3083, "P99 Latency (s)": 0.3220},
+    {"Threads": 4, "Connections": 100, "Implementation": "uring+sqpoll+RWC", "Requests/sec": 3569, "Avg Latency (s)": 0.0300, "P99 Latency (s)": 0.0367},
+    {"Threads": 4, "Connections": 1000, "Implementation": "uring+sqpoll+RWC", "Requests/sec": 3531, "Avg Latency (s)": 0.2993, "P99 Latency (s)": 0.3045},
 
     {"Threads": 6, "Connections": 100, "Implementation": "Tokio", "Requests/sec": 3268, "Avg Latency (s)": 0.0306, "P99 Latency (s)": 0.0377},
     {"Threads": 6, "Connections": 1000, "Implementation": "Tokio", "Requests/sec": 3242, "Avg Latency (s)": 0.3082, "P99 Latency (s)": 0.3226},
@@ -16,6 +18,8 @@ data = [
     {"Threads": 6, "Connections": 1000, "Implementation": "uring", "Requests/sec": 3243, "Avg Latency (s)": 0.3082, "P99 Latency (s)": 0.3211},
     {"Threads": 6, "Connections": 100, "Implementation": "uring+sqpoll", "Requests/sec": 3273, "Avg Latency (s)": 0.0305, "P99 Latency (s)": 0.0371},
     {"Threads": 6, "Connections": 1000, "Implementation": "uring+sqpoll", "Requests/sec": 3239, "Avg Latency (s)": 0.3085, "P99 Latency (s)": 0.3203},
+    {"Threads": 6, "Connections": 100, "Implementation": "uring+sqpoll+RWC", "Requests/sec": 3417, "Avg Latency (s)": 0.0281, "P99 Latency (s)": 0.0390},
+    {"Threads": 6, "Connections": 1000, "Implementation": "uring+sqpoll+RWC", "Requests/sec": 3517, "Avg Latency (s)": 0.2818, "P99 Latency (s)": 0.3050},
 ]
 
 df = pd.DataFrame(data)

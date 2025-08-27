@@ -1174,6 +1174,72 @@ header a {color: #ffffff !important; font-size: 30px;}
 footer {color: #148ec8;}
 ;" data-size="16:9">
 <header><a href="#1" title=" ">◇</a></header>
+<h2 id="cheating-http-server-linked-read-write-and-close">Cheating HTTP server (Linked read, write and close)</h2>
+<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-rs"><span class="hljs-title function_ invoke__">spawn</span>(<span class="hljs-keyword">async</span> {
+    <span class="hljs-comment">// Listen for incomming connections</span>
+    <span class="hljs-keyword">let</span> <span class="hljs-variable">addr</span>: SocketAddr = <span class="hljs-string">&quot;192.168.0.42:8080&quot;</span>.<span class="hljs-title function_ invoke__">parse</span>().<span class="hljs-title function_ invoke__">unwrap</span>();
+    <span class="hljs-keyword">let</span> <span class="hljs-variable">listener</span> = TcpListener::<span class="hljs-title function_ invoke__">bind</span>(addr).<span class="hljs-title function_ invoke__">unwrap</span>();
+    <span class="hljs-comment">// Accept connections</span>
+    <span class="hljs-keyword">let</span> <span class="hljs-variable">_</span> = AcceptMultiFuture::<span class="hljs-title function_ invoke__">new</span>(listener.<span class="hljs-title function_ invoke__">as_raw_fd</span>(), |fd| <span class="hljs-keyword">async</span> <span class="hljs-keyword">move</span> {
+        <span class="hljs-keyword">let</span> <span class="hljs-variable">buf</span>: [<span class="hljs-type">u8</span>; <span class="hljs-number">128</span>] = [<span class="hljs-number">0u8</span>; <span class="hljs-number">128</span>];
+        <span class="hljs-keyword">let</span> <span class="hljs-variable">response</span> = <span class="hljs-string">&quot;HTTP/1.1 200 OK\r\nContent-Length: 13\r\nConnection: close\r\n\r\nHello, World!&quot;</span>;
+        <span class="hljs-comment">// read, write and close</span>
+        <span class="hljs-keyword">let</span> <span class="hljs-variable">_</span> = RWCFuture::<span class="hljs-title function_ invoke__">new</span>(buf, response, fd).<span class="hljs-keyword">await</span>;
+    })
+    .<span class="hljs-keyword">await</span>;
+});
+
+</code></pre>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="51" data-class="invert" data-header="[&amp;#9671;](#1 &quot; &quot;)" data-theme="default" data-style="img {background-color: transparent!important;}
+a:hover, a:active, a:focus {text-decoration: none;}
+header a {color: #ffffff !important; font-size: 30px;}
+footer {color: #148ec8;}
+" lang="en-DK" class="invert" style="--class:invert;--header:[&amp;#9671;](#1 &quot; &quot;);--theme:default;--style:img {background-color: transparent!important;}
+a:hover, a:active, a:focus {text-decoration: none;}
+header a {color: #ffffff !important; font-size: 30px;}
+footer {color: #148ec8;}
+;" data-size="16:9">
+<header><a href="#1" title=" ">◇</a></header>
+<h2 id="reqests-per-second-1">Reqests per Second</h2>
+<p><img src="bench/Requests-sec_RWC.png" alt="Requests per Second" /></p>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="52" data-class="invert" data-header="[&amp;#9671;](#1 &quot; &quot;)" data-theme="default" data-style="img {background-color: transparent!important;}
+a:hover, a:active, a:focus {text-decoration: none;}
+header a {color: #ffffff !important; font-size: 30px;}
+footer {color: #148ec8;}
+" lang="en-DK" class="invert" style="--class:invert;--header:[&amp;#9671;](#1 &quot; &quot;);--theme:default;--style:img {background-color: transparent!important;}
+a:hover, a:active, a:focus {text-decoration: none;}
+header a {color: #ffffff !important; font-size: 30px;}
+footer {color: #148ec8;}
+;" data-size="16:9">
+<header><a href="#1" title=" ">◇</a></header>
+<h2 id="average-latency-1">Average Latency</h2>
+<p><img src="bench/Avg_Latency_(s)_RWC.png" alt="Average Latency" /></p>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="53" data-class="invert" data-header="[&amp;#9671;](#1 &quot; &quot;)" data-theme="default" data-style="img {background-color: transparent!important;}
+a:hover, a:active, a:focus {text-decoration: none;}
+header a {color: #ffffff !important; font-size: 30px;}
+footer {color: #148ec8;}
+" lang="en-DK" class="invert" style="--class:invert;--header:[&amp;#9671;](#1 &quot; &quot;);--theme:default;--style:img {background-color: transparent!important;}
+a:hover, a:active, a:focus {text-decoration: none;}
+header a {color: #ffffff !important; font-size: 30px;}
+footer {color: #148ec8;}
+;" data-size="16:9">
+<header><a href="#1" title=" ">◇</a></header>
+<h2 id="99-latency-1">99% Latency</h2>
+<p><img src="bench/P99_Latency_(s)_RWC.png" alt="99 percent Latency" /></p>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="54" data-class="invert" data-header="[&amp;#9671;](#1 &quot; &quot;)" data-theme="default" data-style="img {background-color: transparent!important;}
+a:hover, a:active, a:focus {text-decoration: none;}
+header a {color: #ffffff !important; font-size: 30px;}
+footer {color: #148ec8;}
+" lang="en-DK" class="invert" style="--class:invert;--header:[&amp;#9671;](#1 &quot; &quot;);--theme:default;--style:img {background-color: transparent!important;}
+a:hover, a:active, a:focus {text-decoration: none;}
+header a {color: #ffffff !important; font-size: 30px;}
+footer {color: #148ec8;}
+;" data-size="16:9">
+<header><a href="#1" title=" ">◇</a></header>
 <h2 id="performance-improvements">Performance Improvements</h2>
 <ul>
 <li>Improved contention on locks and channels</li>
@@ -1185,7 +1251,7 @@ footer {color: #148ec8;}
 <li>Handle errors and cancelations</li>
 </ul>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="51" data-class="invert" data-header="[&amp;#9671;](#1 &quot; &quot;)" data-theme="default" data-style="img {background-color: transparent!important;}
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="55" data-class="invert" data-header="[&amp;#9671;](#1 &quot; &quot;)" data-theme="default" data-style="img {background-color: transparent!important;}
 a:hover, a:active, a:focus {text-decoration: none;}
 header a {color: #ffffff !important; font-size: 30px;}
 footer {color: #148ec8;}
@@ -1203,7 +1269,7 @@ footer {color: #148ec8;}
 <li><s>profit</s> Undefined behaviour <img class="emoji" draggable="false" alt="💀" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f480.svg" data-marp-twemoji=""/></li>
 </ol>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="52" data-class="invert" data-header="[&amp;#9671;](#1 &quot; &quot;)" data-theme="default" data-style="img {background-color: transparent!important;}
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="56" data-class="invert" data-header="[&amp;#9671;](#1 &quot; &quot;)" data-theme="default" data-style="img {background-color: transparent!important;}
 a:hover, a:active, a:focus {text-decoration: none;}
 header a {color: #ffffff !important; font-size: 30px;}
 footer {color: #148ec8;}
@@ -1224,7 +1290,7 @@ footer {color: #148ec8;}
 }
 </code></pre>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="53" data-class="invert" data-header="[&amp;#9671;](#1 &quot; &quot;)" data-theme="default" data-style="img {background-color: transparent!important;}
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="57" data-class="invert" data-header="[&amp;#9671;](#1 &quot; &quot;)" data-theme="default" data-style="img {background-color: transparent!important;}
 a:hover, a:active, a:focus {text-decoration: none;}
 header a {color: #ffffff !important; font-size: 30px;}
 footer {color: #148ec8;}
@@ -1245,7 +1311,7 @@ footer {color: #148ec8;}
 </li>
 </ul>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="54" data-class="invert" data-header="[&amp;#9671;](#1 &quot; &quot;)" data-theme="default" data-style="img {background-color: transparent!important;}
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="58" data-class="invert" data-header="[&amp;#9671;](#1 &quot; &quot;)" data-theme="default" data-style="img {background-color: transparent!important;}
 a:hover, a:active, a:focus {text-decoration: none;}
 header a {color: #ffffff !important; font-size: 30px;}
 footer {color: #148ec8;}
@@ -1267,7 +1333,7 @@ footer {color: #148ec8;}
 });
 </code></pre>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="55" data-class="invert" data-header="[&amp;#9671;](#1 &quot; &quot;)" data-theme="default" data-style="img {background-color: transparent!important;}
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="59" data-class="invert" data-header="[&amp;#9671;](#1 &quot; &quot;)" data-theme="default" data-style="img {background-color: transparent!important;}
 a:hover, a:active, a:focus {text-decoration: none;}
 header a {color: #ffffff !important; font-size: 30px;}
 footer {color: #148ec8;}
@@ -1280,7 +1346,7 @@ footer {color: #148ec8;}
 <h2 id="tokio-uring">Tokio-uring</h2>
 <p>Tokio is in the process of implementing a backend for <code>io_uring</code> with <a href="https://github.com/tokio-rs/tokio-uring">tokio-uring</a>.</p>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="56" data-class="invert" data-header="[&amp;#9671;](#1 &quot; &quot;)" data-theme="default" data-style="img {background-color: transparent!important;}
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="60" data-class="invert" data-header="[&amp;#9671;](#1 &quot; &quot;)" data-theme="default" data-style="img {background-color: transparent!important;}
 a:hover, a:active, a:focus {text-decoration: none;}
 header a {color: #ffffff !important; font-size: 30px;}
 footer {color: #148ec8;}
@@ -1297,7 +1363,7 @@ footer {color: #148ec8;}
 <li><code>io_uring</code> is kinda cool</li>
 </ul>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="57" data-class="invert" data-header="[&amp;#9671;](#1 &quot; &quot;)" data-theme="default" data-style="img {background-color: transparent!important;}
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="61" data-class="invert" data-header="[&amp;#9671;](#1 &quot; &quot;)" data-theme="default" data-style="img {background-color: transparent!important;}
 a:hover, a:active, a:focus {text-decoration: none;}
 header a {color: #ffffff !important; font-size: 30px;}
 footer {color: #148ec8;}
@@ -1309,7 +1375,7 @@ footer {color: #148ec8;}
 <header><a href="#1" title=" ">◇</a></header>
 <h1 id="thanks-for-comming-to-my-first-talk-%F0%9F%98%84">Thanks for comming to my first talk! <img class="emoji" draggable="false" alt="😄" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f604.svg" data-marp-twemoji=""/></h1>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="58" data-class="invert" data-header="[&amp;#9671;](#1 &quot; &quot;)" data-theme="default" data-style="img {background-color: transparent!important;}
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="62" data-class="invert" data-header="[&amp;#9671;](#1 &quot; &quot;)" data-theme="default" data-style="img {background-color: transparent!important;}
 a:hover, a:active, a:focus {text-decoration: none;}
 header a {color: #ffffff !important; font-size: 30px;}
 footer {color: #148ec8;}
@@ -1321,7 +1387,7 @@ footer {color: #148ec8;}
 <header><a href="#1" title=" ">◇</a></header>
 <h1 id="and-thanks-to-the-organizers-and-our-host">And thanks to the organizers and our host!</h1>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="59" data-class="invert" data-header="[&amp;#9671;](#1 &quot; &quot;)" data-theme="default" data-style="img {background-color: transparent!important;}
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="63" data-class="invert" data-header="[&amp;#9671;](#1 &quot; &quot;)" data-theme="default" data-style="img {background-color: transparent!important;}
 a:hover, a:active, a:focus {text-decoration: none;}
 header a {color: #ffffff !important; font-size: 30px;}
 footer {color: #148ec8;}
