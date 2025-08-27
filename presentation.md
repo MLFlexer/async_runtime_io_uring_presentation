@@ -30,8 +30,8 @@ footer: ''
 ---
 ## Motivation
 - Bored after finishing MSc thesis
+- Wanted to learn `io_uring`
 - Initial idea was to make a zero-copy HTTPS server with `io_uring` + `kTLS`
-- Learn `io_uring`
 
 ---
 ## Motivation
@@ -41,10 +41,9 @@ But the code was ugly and multithreading made it even uglier...
 ---
 ## Motivation
 - Bored after finishing MSc thesis
+- Wanted to learn `io_uring`
 - ~~Initial idea was to make a zero-copy HTTPS server with `io_uring` + `kTLS`~~
-- Build an Async runtime for `io_uring`
-- Learn `io_uring`
-- Learn Async Rust
+- Learn async Rust by build an runtime for `io_uring`
 
 ---
 ## TLDR: `io_uring`
@@ -84,18 +83,13 @@ But the code was ugly and multithreading made it even uglier...
 ![w:90%](img/denmark_meme.jpeg)
 
 ---
-
-## So WTF is async Rust?
-- `async`-keyword creates `Futures`
-- The `Future` trait can be implemented custom types
-- Calling `.await` on a future, *polls* the future
-- Polling a future will result in the future being *ready* or *pending*
-  - Ready futures will continue execution
-  - Pending futures will yield the current execution to the runtime
-- Runtime can *wake* a future to *poll* it again
+## So what is async Rust?
+- `async` keyword allows us to call `.await`
+- `.await` tells us that the code will complete asynchrynously
+- Enables writing async code in a sync-style
+- Can speedup certain tasks like I/O bound workloads
 
 ---
-
 ## Compiler Magic
 - The compiler transforms this:
 
@@ -145,6 +139,19 @@ async {
 ![bg right:50% width:90%](img/async_block.svg)
 
 ---
+## So WTF is async Rust actually?
+- `async`-keyword creates `Futures`
+- The `Future` trait can be implemented custom types
+- Calling `.await` on a future, *polls* the future
+- Polling a future will result in the future being *ready* or *pending*
+  - Ready futures will continue execution
+  - Pending futures will yield the current execution to the runtime
+- Runtime can *wake* a future to *poll* it again
+
+---
+## How do we combine `io_uring` and async Rust?
+
+---
 
 ## High Level Idea
 - Initial poll submits SQEs to `io_uring` and yield execution.
@@ -155,10 +162,10 @@ async {
 ---
 
 ## What does the runtime do then?
-- Recive SQEs from MPSC channel
-- Submit SQEs to `io_uring`
-- Check for CQEs
-- Handle CQEs
+1. Recive SQEs from MPSC channel
+2. Submit SQEs to `io_uring`
+3. Check for CQEs
+4. Handle CQEs
 
 ---
 
@@ -449,7 +456,7 @@ Client:
 ---
 ## SQ Polling
 - A kernel thread continuously polls the submission queue for submissions
-- CPU expensive
+- Pay CPU for faster completions
 
 ---
 ## Reqests per Second
@@ -516,6 +523,12 @@ spawn(async {
 ---
 ## Tokio-uring
 Tokio is in the process of implementing a backend for `io_uring` with [tokio-uring](https://github.com/tokio-rs/tokio-uring).
+
+---
+## Takeaways
+- Building an async runtime is easier than you would expect in Rust
+- Great project for learning internals of async Rust
+- `io_uring` is kinda cool
 
 ---
 # Thanks for comming to my first talk! :smile:
