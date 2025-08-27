@@ -1,0 +1,1829 @@
+Warmup for 10s
+
+Summary:
+  Total:	10.0220 secs
+  Slowest:	1.0875 secs
+  Fastest:	0.0136 secs
+  Average:	0.0290 secs
+  Requests/sec:	3447.6155
+  
+  Total data:	449176 bytes
+  Size/request:	13 bytes
+
+Response time histogram:
+  0.014 [1]	|
+  0.121 [34446]	|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+  0.228 [96]	|
+  0.336 [0]	|
+  0.443 [0]	|
+  0.551 [0]	|
+  0.658 [0]	|
+  0.765 [0]	|
+  0.873 [0]	|
+  0.980 [0]	|
+  1.087 [9]	|
+
+
+Latency distribution:
+  10% in 0.0244 secs
+  25% in 0.0258 secs
+  50% in 0.0279 secs
+  75% in 0.0301 secs
+  90% in 0.0322 secs
+  95% in 0.0347 secs
+  99% in 0.0540 secs
+
+Details (average, fastest, slowest):
+  DNS+dialup:	0.0147 secs, 0.0136 secs, 1.0875 secs
+  DNS-lookup:	0.0000 secs, 0.0000 secs, 0.0000 secs
+  req write:	0.0001 secs, 0.0000 secs, 0.0028 secs
+  resp wait:	0.0141 secs, 0.0051 secs, 0.0909 secs
+  resp read:	0.0001 secs, 0.0000 secs, 0.0021 secs
+
+Status code distribution:
+  [200]	34552 responses
+
+
+
+
+Summary:
+  Total:	10.2141 secs
+  Slowest:	1.3115 secs
+  Fastest:	0.0223 secs
+  Average:	0.2789 secs
+  Requests/sec:	3542.6518
+  
+  Total data:	470379 bytes
+  Size/request:	13 bytes
+
+Response time histogram:
+  0.022 [1]	|
+  0.151 [328]	|■
+  0.280 [10187]	|■■■■■■■■■■■■■■■■
+  0.409 [25659]	|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+  0.538 [0]	|
+  0.667 [0]	|
+  0.796 [2]	|
+  0.925 [0]	|
+  1.054 [0]	|
+  1.183 [0]	|
+  1.312 [6]	|
+
+
+Latency distribution:
+  10% in 0.2748 secs
+  25% in 0.2794 secs
+  50% in 0.2827 secs
+  75% in 0.2860 secs
+  90% in 0.2899 secs
+  95% in 0.2929 secs
+  99% in 0.3052 secs
+
+Details (average, fastest, slowest):
+  DNS+dialup:	0.1409 secs, 0.0223 secs, 1.3115 secs
+  DNS-lookup:	0.0000 secs, 0.0000 secs, 0.0000 secs
+  req write:	0.0001 secs, 0.0000 secs, 0.0058 secs
+  resp wait:	0.1378 secs, 0.0065 secs, 0.5904 secs
+  resp read:	0.0001 secs, 0.0000 secs, 0.0069 secs
+
+Status code distribution:
+  [200]	36183 responses
+
+Error distribution:
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:54336->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:55166->192.168.0.8:8080: read: connection reset by peer
+
+10s
+
+Summary:
+  Total:	10.0207 secs
+  Slowest:	0.0656 secs
+  Fastest:	0.0134 secs
+  Average:	0.0278 secs
+  Requests/sec:	3589.7655
+  
+  Total data:	467636 bytes
+  Size/request:	13 bytes
+
+Response time histogram:
+  0.013 [1]	|
+  0.019 [82]	|
+  0.024 [1228]	|■■
+  0.029 [22978]	|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+  0.034 [11464]	|■■■■■■■■■■■■■■■■■■■■
+  0.039 [64]	|
+  0.045 [38]	|
+  0.050 [16]	|
+  0.055 [31]	|
+  0.060 [38]	|
+  0.066 [32]	|
+
+
+Latency distribution:
+  10% in 0.0249 secs
+  25% in 0.0260 secs
+  50% in 0.0276 secs
+  75% in 0.0297 secs
+  90% in 0.0309 secs
+  95% in 0.0315 secs
+  99% in 0.0328 secs
+
+Details (average, fastest, slowest):
+  DNS+dialup:	0.0141 secs, 0.0134 secs, 0.0656 secs
+  DNS-lookup:	0.0000 secs, 0.0000 secs, 0.0000 secs
+  req write:	0.0000 secs, 0.0000 secs, 0.0017 secs
+  resp wait:	0.0136 secs, 0.0048 secs, 0.0384 secs
+  resp read:	0.0001 secs, 0.0000 secs, 0.0027 secs
+
+Status code distribution:
+  [200]	35972 responses
+
+
+
+
+Summary:
+  Total:	10.8553 secs
+  Slowest:	1.3438 secs
+  Fastest:	0.0210 secs
+  Average:	0.2783 secs
+  Requests/sec:	3335.3237
+  
+  Total data:	470665 bytes
+  Size/request:	13 bytes
+
+Response time histogram:
+  0.021 [1]	|
+  0.153 [572]	|■
+  0.286 [28060]	|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+  0.418 [7477]	|■■■■■■■■■■■
+  0.550 [0]	|
+  0.682 [0]	|
+  0.815 [0]	|
+  0.947 [0]	|
+  1.079 [8]	|
+  1.212 [2]	|
+  1.344 [85]	|
+
+
+Latency distribution:
+  10% in 0.2711 secs
+  25% in 0.2760 secs
+  50% in 0.2806 secs
+  75% in 0.2847 secs
+  90% in 0.2882 secs
+  95% in 0.2904 secs
+  99% in 0.3033 secs
+
+Details (average, fastest, slowest):
+  DNS+dialup:	0.1417 secs, 0.0210 secs, 1.3438 secs
+  DNS-lookup:	0.0000 secs, 0.0000 secs, 0.0000 secs
+  req write:	0.0001 secs, 0.0000 secs, 0.0096 secs
+  resp wait:	0.1364 secs, 0.0041 secs, 0.2181 secs
+  resp read:	0.0001 secs, 0.0000 secs, 0.0073 secs
+
+Status code distribution:
+  [200]	36205 responses
+
+Error distribution:
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:59222->192.168.0.8:8080: read: connection reset by peer
+
+5m
+
+Summary:
+  Total:	292.6365 secs
+  Slowest:	1.0951 secs
+  Fastest:	0.0098 secs
+  Average:	0.0281 secs
+  Requests/sec:	3417.2088
+  
+  Total data:	12999701 bytes
+  Size/request:	13 bytes
+
+Response time histogram:
+  0.010 [1]	|
+  0.118 [999678]	|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+  0.227 [195]	|
+  0.335 [0]	|
+  0.444 [0]	|
+  0.552 [0]	|
+  0.661 [0]	|
+  0.770 [0]	|
+  0.878 [0]	|
+  0.987 [0]	|
+  1.095 [103]	|
+
+
+Latency distribution:
+  10% in 0.0247 secs
+  25% in 0.0259 secs
+  50% in 0.0277 secs
+  75% in 0.0298 secs
+  90% in 0.0312 secs
+  95% in 0.0322 secs
+  99% in 0.0390 secs
+
+Details (average, fastest, slowest):
+  DNS+dialup:	0.0143 secs, 0.0098 secs, 1.0951 secs
+  DNS-lookup:	0.0000 secs, 0.0000 secs, 0.0000 secs
+  req write:	0.0000 secs, 0.0000 secs, 0.0038 secs
+  resp wait:	0.0137 secs, 0.0036 secs, 0.1302 secs
+  resp read:	0.0001 secs, 0.0000 secs, 0.0028 secs
+
+Status code distribution:
+  [200]	999977 responses
+
+Error distribution:
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:40424->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:40454->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:40474->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:40556->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:40558->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:40590->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:40600->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:40612->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:40614->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:40662->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:41096->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:41150->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:41196->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:44974->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:45880->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:45900->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:45914->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:45930->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:45944->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:45960->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:45976->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:45982->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:46030->192.168.0.8:8080: read: connection reset by peer
+
+
+Summary:
+  Total:	284.2736 secs
+  Slowest:	1.3610 secs
+  Fastest:	0.0107 secs
+  Average:	0.2818 secs
+  Requests/sec:	3517.7382
+  
+  Total data:	12979486 bytes
+  Size/request:	13 bytes
+
+Response time histogram:
+  0.011 [1]	|
+  0.146 [5704]	|
+  0.281 [420745]	|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+  0.416 [567446]	|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+  0.551 [392]	|
+  0.686 [9]	|
+  0.821 [2]	|
+  0.956 [0]	|
+  1.091 [21]	|
+  1.226 [52]	|
+  1.361 [4050]	|
+
+
+Latency distribution:
+  10% in 0.2672 secs
+  25% in 0.2738 secs
+  50% in 0.2820 secs
+  75% in 0.2854 secs
+  90% in 0.2881 secs
+  95% in 0.2908 secs
+  99% in 0.3050 secs
+
+Details (average, fastest, slowest):
+  DNS+dialup:	0.1432 secs, 0.0107 secs, 1.3610 secs
+  DNS-lookup:	0.0000 secs, 0.0000 secs, 0.0000 secs
+  req write:	0.0001 secs, 0.0000 secs, 0.0086 secs
+  resp wait:	0.1385 secs, 0.0039 secs, 0.5771 secs
+  resp read:	0.0001 secs, 0.0000 secs, 0.0132 secs
+
+Status code distribution:
+  [200]	998422 responses
+
+Error distribution:
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:32774->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:32828->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:32836->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:32844->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:32846->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:32850->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:32860->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:32874->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:32876->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:32924->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:32934->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:32942->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:32944->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:32948->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:32952->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:32958->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:32966->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:32982->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:32990->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:32996->192.168.0.8:8080: read: connection reset by peer
+  [2]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:33008->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:33022->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:33034->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:33068->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:33084->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:33096->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:33114->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:33116->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:33140->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:33144->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:33164->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:33168->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:33176->192.168.0.8:8080: read: connection reset by peer
+  [2]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:33188->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:33198->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:33236->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:33238->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:33242->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:33258->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:33270->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:33278->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:33288->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:33298->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:33316->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:33326->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:33356->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:33358->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:33362->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:33390->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:33436->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:33442->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:33448->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:33452->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:33474->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:33478->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:33484->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:33490->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:33514->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:33528->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:33532->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:33550->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:33558->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:33580->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:33590->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:33602->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:33660->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:33674->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:33690->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:33692->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:33708->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:33720->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:33726->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:33728->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:33730->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:33742->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:33754->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:33760->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:33788->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:33800->192.168.0.8:8080: read: connection reset by peer
+  [2]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:33806->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:33848->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:33850->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:33876->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:33880->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:33886->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:33894->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:33924->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:33954->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:34006->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:34032->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:34040->192.168.0.8:8080: read: connection reset by peer
+  [2]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:34058->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:34074->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:34082->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:34088->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:34100->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:34104->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:34132->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:34150->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:34160->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:34174->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:34202->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:34204->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:34220->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:34262->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:34280->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:34310->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:34340->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:34368->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:34402->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:34426->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:34450->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:34502->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:34510->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:34522->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:34528->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:34534->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:34542->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:34554->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:34560->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:34564->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:34594->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:34612->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:34674->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:34700->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:34716->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:34730->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:34748->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:34794->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:34810->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:34818->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:34834->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:34836->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:34838->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:34842->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:34848->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:34862->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:34864->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:34902->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:35014->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:35030->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:35066->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:35074->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:35082->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:35140->192.168.0.8:8080: read: connection reset by peer
+  [2]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:35166->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:35172->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:35180->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:35196->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:35220->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:35270->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:35274->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:35278->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:35292->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:35328->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:35354->192.168.0.8:8080: read: connection reset by peer
+  [2]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:35384->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:35402->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:35404->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:35416->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:35458->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:35520->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:35526->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:35554->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:35566->192.168.0.8:8080: read: connection reset by peer
+  [2]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:35586->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:35618->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:35620->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:35624->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:35656->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:35670->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:35700->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:35710->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:35720->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:35750->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:35802->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:35830->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:35850->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:35876->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:35884->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:35908->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:35916->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:35960->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:36014->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:36026->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:36054->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:36088->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:36090->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:36100->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:36126->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:36134->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:36138->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:36148->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:36150->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:36188->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:36232->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:36236->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:36258->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:36304->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:36308->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:36312->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:36314->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:36340->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:36362->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:36404->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:36418->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:36434->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:36460->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:36478->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:36520->192.168.0.8:8080: read: connection reset by peer
+  [2]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:36540->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:36548->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:36636->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:36648->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:36676->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:36716->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:36734->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:36738->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:36760->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:36768->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:36802->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:36818->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:36826->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:36830->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:36840->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:36856->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:36870->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:36904->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:36912->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:36922->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:36946->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:36962->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:36970->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:36996->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:37032->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:37052->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:37062->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:37140->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:37170->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:37230->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:37234->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:37244->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:37260->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:37288->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:37300->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:37326->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:37336->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:37346->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:37348->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:37364->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:37366->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:37378->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:37392->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:37464->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:37472->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:37482->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:37516->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:37536->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:37556->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:37570->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:37578->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:37582->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:37654->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:37666->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:37690->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:37706->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:37710->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:37768->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:37770->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:37782->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:37786->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:37792->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:37806->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:37810->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:37816->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:37848->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:37856->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:37864->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:37916->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:37922->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:37928->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:37948->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:37972->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:37982->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:38008->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:38020->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:38026->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:38194->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:38208->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:38212->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:38258->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:38278->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:38282->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:38294->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:38298->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:38310->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:38326->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:38340->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:38348->192.168.0.8:8080: read: connection reset by peer
+  [2]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:38360->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:38372->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:38380->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:38392->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:38400->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:38406->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:38418->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:38430->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:38442->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:38462->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:38464->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:38504->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:38512->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:38526->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:38598->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:38608->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:38612->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:38618->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:38632->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:38634->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:38646->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:38660->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:38676->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:38690->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:38752->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:38770->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:38796->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:38806->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:38824->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:38832->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:38860->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:38878->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:38908->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:38924->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:38940->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:38952->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:38954->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:39036->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:39038->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:39046->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:39056->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:39080->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:39108->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:39116->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:39120->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:39126->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:39188->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:39218->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:39234->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:39252->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:39278->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:39476->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:39530->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:39632->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:39654->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:39702->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:39716->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:39762->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:39806->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:39812->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:39986->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:40002->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:40078->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:40102->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:40118->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:40148->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:40168->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:40184->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:40254->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:40318->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:40382->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:40422->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:40522->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:40584->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:40606->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:40618->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:40626->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:40662->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:40688->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:40710->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:40716->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:40758->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:40826->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:40874->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:40930->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:40964->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:40994->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:41000->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:41016->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:41042->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:41086->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:41150->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:41160->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:41242->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:41268->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:41358->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:41442->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:41504->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:41526->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:41542->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:41580->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:41598->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:41636->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:41684->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:41698->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:41780->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:41796->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:41824->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:41850->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:41910->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:41958->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:41992->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:42020->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:42084->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:42110->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:42126->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:42210->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:42272->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:42300->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:42316->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:42338->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:42370->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:42394->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:42410->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:42438->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:42452->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:42462->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:42574->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:42596->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:42608->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:42646->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:42678->192.168.0.8:8080: read: connection reset by peer
+  [2]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:42712->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:42746->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:42782->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:42794->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:42824->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:42902->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:42904->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:42914->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:42962->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:42964->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:43028->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:43084->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:43178->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:43276->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:43316->192.168.0.8:8080: read: connection reset by peer
+  [2]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:43340->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:43354->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:43362->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:43368->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:43412->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:43422->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:43430->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:43448->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:43450->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:43464->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:43478->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:43494->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:43538->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:43568->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:43576->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:43584->192.168.0.8:8080: read: connection reset by peer
+  [2]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:43600->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:43610->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:43620->192.168.0.8:8080: read: connection reset by peer
+  [2]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:43634->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:43650->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:43658->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:43666->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:43678->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:43694->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:43750->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:43752->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:43790->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:43886->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:43894->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:43938->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:43940->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:43946->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:43958->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:43976->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:43990->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:44006->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:44040->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:44044->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:44058->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:44122->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:44150->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:44208->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:44224->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:44262->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:44284->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:44298->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:44348->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:44368->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:44372->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:44382->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:44400->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:44432->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:44446->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:44462->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:44544->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:44556->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:44560->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:44580->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:44596->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:44602->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:44618->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:44622->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:44650->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:44656->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:44666->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:44670->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:44680->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:44714->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:44752->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:44768->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:44796->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:44818->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:44834->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:44844->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:44846->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:44858->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:44866->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:44870->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:44880->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:44882->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:44884->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:44886->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:44926->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:44942->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:44956->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:44958->192.168.0.8:8080: read: connection reset by peer
+  [2]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:44980->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:44992->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:45000->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:45016->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:45028->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:45036->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:45050->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:45062->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:45070->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:45090->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:45102->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:45126->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:45134->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:45136->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:45142->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:45162->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:45174->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:45178->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:45190->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:45224->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:45238->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:45242->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:45246->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:45252->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:45254->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:45262->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:45272->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:45278->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:45280->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:45294->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:45332->192.168.0.8:8080: read: connection reset by peer
+  [2]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:45356->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:45432->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:45458->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:45474->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:45482->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:45506->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:45528->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:45590->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:45604->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:45616->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:45620->192.168.0.8:8080: read: connection reset by peer
+  [2]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:45642->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:45648->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:45672->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:45688->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:45740->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:45768->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:45782->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:45788->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:45806->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:45830->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:45836->192.168.0.8:8080: read: connection reset by peer
+  [2]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:45866->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:45876->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:45886->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:45942->192.168.0.8:8080: read: connection reset by peer
+  [2]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:45956->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:45966->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:45972->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:45978->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:45984->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:45996->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:46000->192.168.0.8:8080: read: connection reset by peer
+  [2]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:46024->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:46104->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:46112->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:46118->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:46130->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:46132->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:46150->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:46154->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:46158->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:46170->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:46184->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:46186->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:46190->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:46218->192.168.0.8:8080: read: connection reset by peer
+  [2]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:46226->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:46238->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:46246->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:46250->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:46258->192.168.0.8:8080: read: connection reset by peer
+  [2]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:46312->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:46328->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:46342->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:46360->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:46384->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:46396->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:46418->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:46422->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:46436->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:46462->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:46472->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:46490->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:46504->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:46520->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:46526->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:46536->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:46556->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:46568->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:46570->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:46580->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:46588->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:46612->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:46620->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:46644->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:46666->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:46694->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:46696->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:46712->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:46724->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:46750->192.168.0.8:8080: read: connection reset by peer
+  [2]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:46756->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:46764->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:46790->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:46792->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:46800->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:46812->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:46828->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:46834->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:46836->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:46846->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:46896->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:46906->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:46922->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:46924->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:46932->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:46936->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:46950->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:46958->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:46960->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:46964->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:47002->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:47016->192.168.0.8:8080: read: connection reset by peer
+  [2]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:47022->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:47038->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:47042->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:47044->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:47048->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:47050->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:47056->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:47066->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:47070->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:47076->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:47092->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:47098->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:47108->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:47110->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:47140->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:47146->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:47154->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:47184->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:47202->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:47206->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:47210->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:47224->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:47228->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:47246->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:47274->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:47278->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:47284->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:47294->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:47298->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:47322->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:47334->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:47352->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:47374->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:47406->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:47410->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:47420->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:47436->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:47456->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:47458->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:47478->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:47486->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:47530->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:47586->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:47588->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:47608->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:47620->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:47630->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:47646->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:47688->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:47744->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:47750->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:47760->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:47820->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:47826->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:47830->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:47842->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:47848->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:47938->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:47948->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:48028->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:48056->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:48066->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:48068->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:48096->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:48120->192.168.0.8:8080: read: connection reset by peer
+  [2]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:48164->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:48176->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:48180->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:48202->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:48204->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:48240->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:48254->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:48262->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:48270->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:48308->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:48358->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:48368->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:48374->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:48396->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:48430->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:48496->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:48512->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:48556->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:48578->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:48626->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:48670->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:48676->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:48702->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:48712->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:48752->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:48762->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:48782->192.168.0.8:8080: read: connection reset by peer
+  [2]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:48812->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:48848->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:48868->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:48908->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:48952->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:48966->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:48978->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:49022->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:49028->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:49042->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:49106->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:49114->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:49126->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:49162->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:49178->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:49190->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:49206->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:49208->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:49224->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:49230->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:49244->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:49246->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:49276->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:49290->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:49366->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:49388->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:49400->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:49410->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:49426->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:49450->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:49468->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:49480->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:49498->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:49538->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:49546->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:49566->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:49586->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:49596->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:49604->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:49622->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:49630->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:49638->192.168.0.8:8080: read: connection reset by peer
+  [2]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:49640->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:49650->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:49686->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:49688->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:49700->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:49704->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:49716->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:49720->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:49732->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:49754->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:49756->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:49766->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:49768->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:49782->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:49856->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:49876->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:49882->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:49886->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:49980->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:50014->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:50018->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:50026->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:50050->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:50066->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:50082->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:50092->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:50136->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:50152->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:50154->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:50200->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:50202->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:50234->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:50236->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:50264->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:50292->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:50336->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:50390->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:50414->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:50454->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:50464->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:50486->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:50494->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:50496->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:50508->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:50516->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:50540->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:50546->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:50558->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:50658->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:50666->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:50748->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:50760->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:50762->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:50772->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:50774->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:50778->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:50810->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:50824->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:50834->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:50884->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:50894->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:50896->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:50900->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:50908->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:50910->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:50922->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:50932->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:50936->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:50944->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:50948->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:50978->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:51000->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:51100->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:51102->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:51146->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:51174->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:51182->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:51186->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:51196->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:51200->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:51244->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:51264->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:51308->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:51326->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:51336->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:51338->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:51356->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:51406->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:51462->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:51480->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:51506->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:51522->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:51558->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:51568->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:51608->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:51672->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:51688->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:51690->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:51746->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:51774->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:51788->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:51796->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:51808->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:51830->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:51864->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:51896->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:51908->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:51920->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:51922->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:51934->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:51936->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:51976->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:52004->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:52010->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:52040->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:52054->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:52074->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:52092->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:52138->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:52192->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:52204->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:52222->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:52236->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:52244->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:52256->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:52276->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:52296->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:52314->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:52342->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:52394->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:52404->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:52410->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:52436->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:52444->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:52462->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:52466->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:52484->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:52496->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:52510->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:52526->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:52534->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:52538->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:52544->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:52552->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:52606->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:52616->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:52618->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:52634->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:52670->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:52726->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:52732->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:52800->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:52816->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:52820->192.168.0.8:8080: read: connection reset by peer
+  [2]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:52836->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:52852->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:52860->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:52866->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:52868->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:52886->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:52900->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:52912->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:52920->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:52938->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:52990->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:53014->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:53024->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:53040->192.168.0.8:8080: read: connection reset by peer
+  [2]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:53102->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:53128->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:53142->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:53144->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:53162->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:53194->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:53202->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:53206->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:53220->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:53248->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:53260->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:53346->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:53374->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:53388->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:53398->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:53406->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:53410->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:53424->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:53432->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:53478->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:53514->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:53538->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:53582->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:53592->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:53622->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:53626->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:53632->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:53634->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:53638->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:53642->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:53648->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:53656->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:53666->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:53680->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:53704->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:53716->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:53720->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:53744->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:53786->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:53808->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:53832->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:53844->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:53848->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:53850->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:53860->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:53900->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:53904->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:53930->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:53944->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:53958->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:53982->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:54002->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:54032->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:54046->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:54074->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:54076->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:54092->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:54098->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:54104->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:54116->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:54132->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:54140->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:54178->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:54184->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:54192->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:54208->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:54216->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:54242->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:54252->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:54254->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:54272->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:54288->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:54292->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:54316->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:54334->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:54344->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:54386->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:54390->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:54444->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:54452->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:54456->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:54472->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:54482->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:54504->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:54514->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:54540->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:54560->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:54614->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:54634->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:54668->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:54674->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:54684->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:54690->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:54692->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:54698->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:54700->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:54702->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:54760->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:54766->192.168.0.8:8080: read: connection reset by peer
+  [2]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:54784->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:54790->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:54798->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:54800->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:54812->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:54816->192.168.0.8:8080: read: connection reset by peer
+  [2]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:54830->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:54844->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:54846->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:54852->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:54866->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:54868->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:54870->192.168.0.8:8080: read: connection reset by peer
+  [2]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:54886->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:54890->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:54906->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:54908->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:54910->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:54916->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:54958->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:54962->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:54976->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:54978->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:55002->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:55024->192.168.0.8:8080: read: connection reset by peer
+  [2]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:55038->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:55042->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:55058->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:55072->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:55078->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:55090->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:55098->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:55104->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:55126->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:55128->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:55130->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:55142->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:55144->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:55152->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:55166->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:55174->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:55180->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:55184->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:55202->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:55222->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:55248->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:55250->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:55264->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:55296->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:55300->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:55302->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:55308->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:55324->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:55352->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:55372->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:55378->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:55394->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:55396->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:55410->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:55428->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:55430->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:55440->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:55456->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:55458->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:55516->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:55584->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:55608->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:55624->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:55682->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:55724->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:55734->192.168.0.8:8080: read: connection reset by peer
+  [2]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:55772->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:55794->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:55852->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:55854->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:55876->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:55886->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:55902->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:55928->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:55944->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:55956->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:55982->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:56014->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:56020->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:56048->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:56058->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:56068->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:56080->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:56100->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:56104->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:56116->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:56128->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:56132->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:56138->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:56146->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:56154->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:56180->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:56196->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:56204->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:56208->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:56210->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:56224->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:56250->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:56254->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:56264->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:56266->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:56274->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:56280->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:56294->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:56316->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:56336->192.168.0.8:8080: read: connection reset by peer
+  [2]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:56350->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:56352->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:56362->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:56392->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:56442->192.168.0.8:8080: read: connection reset by peer
+  [2]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:56458->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:56466->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:56472->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:56492->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:56504->192.168.0.8:8080: read: connection reset by peer
+  [2]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:56506->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:56564->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:56594->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:56606->192.168.0.8:8080: read: connection reset by peer
+  [2]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:56608->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:56618->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:56624->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:56626->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:56632->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:56642->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:56644->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:56646->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:56666->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:56680->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:56682->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:56710->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:56720->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:56724->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:56748->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:56776->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:56782->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:56796->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:56806->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:56848->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:56852->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:56856->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:56866->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:56870->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:56888->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:56896->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:56898->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:56900->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:56914->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:56930->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:56944->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:56966->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:56976->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:56978->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:56982->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:56984->192.168.0.8:8080: read: connection reset by peer
+  [2]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:56994->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:57008->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:57016->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:57032->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:57050->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:57052->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:57064->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:57080->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:57092->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:57104->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:57106->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:57114->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:57122->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:57136->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:57150->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:57178->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:57186->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:57190->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:57200->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:57206->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:57212->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:57214->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:57226->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:57230->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:57240->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:57250->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:57262->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:57266->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:57270->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:57272->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:57276->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:57300->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:57340->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:57342->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:57356->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:57374->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:57392->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:57424->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:57448->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:57480->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:57492->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:57502->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:57520->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:57528->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:57542->192.168.0.8:8080: read: connection reset by peer
+  [2]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:57548->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:57560->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:57562->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:57570->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:57576->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:57608->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:57612->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:57620->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:57622->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:57642->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:57666->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:57690->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:57708->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:57710->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:57732->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:57756->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:57770->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:57778->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:57780->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:57788->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:57830->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:57852->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:57886->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:57894->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:57900->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:57918->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:57932->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:57934->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:57948->192.168.0.8:8080: read: connection reset by peer
+  [2]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:57968->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:57980->192.168.0.8:8080: read: connection reset by peer
+  [2]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:57984->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:57988->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:57994->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:58004->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:58018->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:58020->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:58026->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:58032->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:58056->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:58068->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:58078->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:58082->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:58098->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:58100->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:58118->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:58130->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:58138->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:58144->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:58168->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:58216->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:58224->192.168.0.8:8080: read: connection reset by peer
+  [2]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:58250->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:58268->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:58270->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:58274->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:58290->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:58292->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:58296->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:58300->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:58310->192.168.0.8:8080: read: connection reset by peer
+  [2]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:58314->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:58322->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:58326->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:58334->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:58352->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:58354->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:58370->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:58384->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:58394->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:58400->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:58406->192.168.0.8:8080: read: connection reset by peer
+  [2]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:58412->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:58420->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:58432->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:58460->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:58472->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:58474->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:58484->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:58504->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:58512->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:58532->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:58542->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:58548->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:58574->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:58588->192.168.0.8:8080: read: connection reset by peer
+  [2]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:58590->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:58602->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:58604->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:58622->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:58626->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:58628->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:58648->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:58652->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:58692->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:58712->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:58722->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:58726->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:58750->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:58756->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:58760->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:58768->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:58776->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:58790->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:58796->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:58802->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:58804->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:58806->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:58814->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:58840->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:58842->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:58846->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:58890->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:58896->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:58898->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:58902->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:58910->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:58912->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:58914->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:58940->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:58946->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:58950->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:58960->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:58970->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:58992->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:59004->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:59006->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:59010->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:59056->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:59064->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:59096->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:59110->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:59134->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:59136->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:59160->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:59168->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:59200->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:59204->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:59210->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:59212->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:59214->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:59232->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:59250->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:59262->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:59286->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:59352->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:59382->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:59398->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:59404->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:59412->192.168.0.8:8080: read: connection reset by peer
+  [2]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:59416->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:59432->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:59456->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:59464->192.168.0.8:8080: read: connection reset by peer
+  [2]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:59480->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:59488->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:59496->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:59508->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:59516->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:59546->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:59566->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:59578->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:59582->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:59592->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:59598->192.168.0.8:8080: read: connection reset by peer
+  [2]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:59612->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:59646->192.168.0.8:8080: read: connection reset by peer
+  [2]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:59662->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:59684->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:59686->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:59714->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:59720->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:59730->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:59768->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:59770->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:59784->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:59786->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:59790->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:59822->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:59846->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:59858->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:59880->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:59884->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:59892->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:59946->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:59966->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:59984->192.168.0.8:8080: read: connection reset by peer
+  [2]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:59990->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:60004->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:60016->192.168.0.8:8080: read: connection reset by peer
+  [2]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:60054->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:60058->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:60108->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:60116->192.168.0.8:8080: read: connection reset by peer
+  [2]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:60122->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:60128->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:60140->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:60146->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:60150->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:60154->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:60160->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:60176->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:60190->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:60192->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:60206->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:60262->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:60284->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:60294->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:60340->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:60344->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:60358->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:60370->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:60386->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:60402->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:60412->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:60420->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:60434->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:60450->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:60456->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:60462->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:60466->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:60478->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:60528->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:60542->192.168.0.8:8080: read: connection reset by peer
+  [2]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:60600->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:60644->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:60690->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:60700->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:60716->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:60732->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:60744->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:60748->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:60754->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:60762->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:60778->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:60808->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:60814->192.168.0.8:8080: read: connection reset by peer
+  [2]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:60842->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:60866->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:60870->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:60880->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:60886->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:60896->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:60926->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:60944->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:60956->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:60984->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:60988->192.168.0.8:8080: read: connection reset by peer
+  [1]	Get "http://192.168.0.8:8080": read tcp 192.168.0.13:60990->192.168.0.8:8080: read: connection reset by peer
+
