@@ -5,7 +5,8 @@ mod lib;
 use io_uring::IoUring;
 use lib::{
     net::{
-        accept_multi::AcceptMultiFuture, send::SendFuture, shuwdown_close::ShutdownAndCloseFuture,
+        accept_multi::AcceptMultiFuture, read_write_close::RWCFuture, send::SendFuture,
+        shuwdown_close::ShutdownAndCloseFuture,
     },
     reader::ReaderFuture,
     util::{
@@ -44,19 +45,20 @@ fn main() {
     println!("USING ATOMIC SHARED CELL CHECK!");
 
     spawn(async {
-        // let addr: SocketAddr = "127.0.0.1:8080".parse().unwrap();
-        let addr: SocketAddr = "192.168.0.8:8080".parse().unwrap();
+        let addr: SocketAddr = "127.0.0.1:8080".parse().unwrap();
+        // let addr: SocketAddr = "192.168.0.8:8080".parse().unwrap();
         let listener = TcpListener::bind(addr).unwrap();
 
         println!("starting multi");
         let result = AcceptMultiFuture::new(listener.as_raw_fd(), |fd| async move {
-            let buf: [u8; 128] = [0u8; 128];
-            let _ = ReaderFuture::new(buf, fd).await;
+            let buf: [u8; 64] = [0u8; 64];
+            // let _ = ReaderFuture::new(buf, fd).await;
             let response =
                 "HTTP/1.1 200 OK\r\nContent-Length: 13\r\nConnection: close\r\n\r\nHello, World!";
-            let _ = WriterFuture::new(response, fd).await;
+            // let _ = WriterFuture::new(response, fd).await;
 
-            let _ = ShutdownAndCloseFuture::new(fd).await;
+            // let _ = ShutdownAndCloseFuture::new(fd).await;
+            let _ = RWCFuture::new(buf, response, fd).await;
         })
         .await;
         println!("EXITTING! {result}");
