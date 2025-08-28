@@ -957,7 +957,12 @@ footer {color: #148ec8;}
 <header><a href="#1" title=" ">◇</a></header>
 <h2 id="io_uring-linking"><code>io_uring</code> Linking</h2>
 <ul>
-<li>SQEs can be linked to complete in a sequence</li>
+<li>SQEs can be linked to complete in a sequence
+<ul>
+<li>Write to a file</li>
+<li>Close file</li>
+</ul>
+</li>
 <li>If one fails, then the rest are cancelled</li>
 </ul>
 </section>

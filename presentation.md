@@ -371,6 +371,8 @@ Recive other tasks
 ---
 ## `io_uring` Linking
 - SQEs can be linked to complete in a sequence
+    - Write to a file
+    - Close file
 - If one fails, then the rest are cancelled
 
 ---
